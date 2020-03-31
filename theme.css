@@ -215,16 +215,16 @@
  * JS [(], [)], [{], [}], [,], [;]
  */
 .CodeMirror-scroll {
-    background-color: #272822;
-    color: #efefe1;
+    background-color: #4C595D;
+    color: #EBF2EC;
 }
 
 /*
  * Row number area background color
  */
 .CodeMirror-gutters {
-    background-color: #2c2d29;
-    border-right: none;
+    background-color: #335C74;
+    border-right: 1px;
 }
 
 /*
