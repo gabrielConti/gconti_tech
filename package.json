@@ -1,1 +1,14 @@
-
+{
+    "title": "GContiTech",
+    "name": "gconti_tech-theme",
+    "description": "A dark theme for pleasant development.",
+    "version": "1.1.0",
+    "author": "Gabriel,Conti <gconti.dev@gmail.com> (https://github.com/gabrielConti)",
+    "homepage": "https://github.com/gabrielConti/gconti_tech",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.css",
+        "dark": true
+    },
+    "keywords": ["theme, pleasant, dark, gconti, tech"]
+}
