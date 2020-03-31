@@ -15,13 +15,19 @@
  Color Scheme
 ================================================================
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif; 
+     letter-spacing: 1.5px;
+}
 /*
  * JS [var], [if], [else if]
  */
 .cm-keyword {
     color: #EA660B;
-    font-style: bold;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 /*
@@ -29,7 +35,7 @@
  * JS [null], [true]
  */
 .cm-atom {
-    color: #0B9CEA;
+    color: #c8ceff;
 }
 
 /*
@@ -37,7 +43,7 @@
  * JS var i = [0];
  */
 .cm-number {
-    color: #81DDFF;
+    color: #b0f6f8;
 }
 
 /*
@@ -53,14 +59,14 @@
  * JS [addClass], [getWindowHeight]
  */
 .cm-variable {
-    color: #51adbf;
+    color: #3d8966;
 }
 
 /*
  * JS variable-2
  */
 .cm-variable-2 {
-    color: #a8e8f5;
+    color: #ff90b7;
 }
 
 /*
@@ -91,7 +97,7 @@
  * JS [comment]
  */
 .cm-comment {
-    color: #74705d;
+    color: #7a9ebe;
 }
 
 /*
@@ -114,7 +120,7 @@
  * CSS [-webkit-], [-moz-]
  */
 .cm-meta {
-    color: #DF0073;
+    color: #276079;
     font-style: italic;
 }
 
@@ -122,7 +128,7 @@
  * CSS [.class-name] {property: value;}
  */
 .cm-qualifier {
-    color: #a3d933;
+    color: #ded1b3;
 }
 
 /*
@@ -137,7 +143,9 @@
  * HTML [<header>], [</div>]
  */
 .cm-tag {
-    color: #e73876;
+    color: #c4bf96;
+    font-style: italic;
+    font-weight: 700;
 }
 
 /*
@@ -145,7 +153,7 @@
  */
 .cm-bracket {
     /*if you wants to change the brackets color. */
-    /*color: #efefe1;*/
+    color: #efefe1;
 }
 
 /*
@@ -223,15 +231,15 @@
  * Row number area background color
  */
 .CodeMirror-gutters {
-    background-color: #335C74;
-    border-right: 1px;
+    background-color: rgba(17, 38, 51, 0.99);
+    border-right: 2px solid rgba(43,43,43,0.5);
 }
 
 /*
  * Row number area text color
  */
 .CodeMirror-linenumber {
-    color: #878885;
+    color:  rgba(80, 104, 119, 0.99);
 }
 
 /*
@@ -255,7 +263,7 @@
     background-color: #333;
     border-color: #efefe1;
     color: #efefe1;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 /*
@@ -269,14 +277,14 @@
  * Selection highlight color(Active tab)
  */
 .CodeMirror-focused .CodeMirror-selected {
-    background: #383830;
+    background: #021619;
 }
 
 /*
  * Cursor(character input)
  */
 .CodeMirror-cursor {
-    border-left: 2px solid #fff !important;
+    border-left: 3px solid #fff !important;
 }
 
 /*
@@ -284,7 +292,7 @@
  */
 .CodeMirror-matchingtag {
     /* Ensure visibility against gray inline editor background */
-    background-color: #3a392f;
+    background-color: #191813;
 }
 
 /*
@@ -341,29 +349,30 @@
  * Brackets activeline highlight color(when "style active line" is enable)
  */
 .CodeMirror-focused .CodeMirror-activeline-background {
-    background: #383934;
+    background: rgba(24, 25, 23, 0.74);
 }
 
 /*
  * Brackets activeline highlight color(when "style active line" is enable)
  */
 .show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
-    /*box-shadow: inset 15px 0 0 0 #000;*/
+    box-shadow: inset 15px 0 0 0 #000;
 }
 
 /*
  * Brackets activeline highlight color(when "style active line" is enable)
  */
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background: #383934;
+    background: rgba(105, 94, 10, 0.85);
     color: #fff;
+    font-weight: 600;
 }
 
 /*
 * Brackets activeline highlight color of inline widget(when "style active line" is enable)
  */
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
-    background: #383934;
+    background: #20211b;
     color: #fff;
 }
 
